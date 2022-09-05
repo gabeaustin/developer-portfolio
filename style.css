@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* font weights - 300, 400, 500 */
+  --heading-font: font-family: "Montserrat", sans-serif;
+  --para-font: font-family: "Roboto", sans-serif;
+  --red: #ea5743;
+  --gray: #dfe3e5;
+  --darker-gray: #e0e5eb;
+  --text-gray: #949799;
+  --black: #292e33;
+  --darker-black: #333333;
+  --white: #ffffff;
+}
