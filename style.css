@@ -47,7 +47,8 @@ p {
     flex-direction: column;
   }
 
-  .text-area {
+  .text-area,
+  .details-area {
     padding: 30px 50px 20px 50px;
   }
 
@@ -92,12 +93,10 @@ p {
     margin-top: -100px;
   }
 
-  .section-2 .text-area h2 {
+  .section-2 .text-area h2,
+  .section-2 .details-area h2 {
     font-size: 2rem;
     text-transform: uppercase;
-  }
-
-  .section-2 .text-area h2 {
     margin-bottom: 10px;
   }
 
@@ -108,6 +107,20 @@ p {
   .section-2 .text-area p:last-of-type {
     margin-bottom: 20px;
     line-height: 30px;
+  }
+
+  .section-2 .details-area h3 {
+    margin-bottom: 10px;
+  }
+
+  .section-2 .details-area p {
+    margin-bottom: 40px;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15px;
   }
 
   .image-background-circle {
