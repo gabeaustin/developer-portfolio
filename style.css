@@ -5,8 +5,8 @@
 
 :root {
   /* font weights - 300, 400, 500 */
-  --heading-font: font-family: "Montserrat", sans-serif;
-  --para-font: font-family: "Roboto", sans-serif;
+  --heading-font: "Montserrat", sans-serif;
+  --para-font: "Roboto", sans-serif;
   --red: #ea5743;
   --gray: #dfe3e5;
   --darker-gray: #e0e5eb;
@@ -14,4 +14,41 @@
   --black: #292e33;
   --darker-black: #333333;
   --white: #ffffff;
+}
+
+h1,
+h2,
+button {
+  font-family: var(--heading-font);
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: var(--para-font);
+}
+
+/* Media Queries */
+
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  * {
+    background-color: #ea5743;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .section-1 {
+    background-color: var(--gray);
+  }
+
+  .red-circle {
+    background: var(--red);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
 }
