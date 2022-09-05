@@ -87,7 +87,7 @@ p {
     background-color: var(--red);
   }
 
-  div.image-area img {
+  .section-1 .image-area img {
     width: 55vw;
     float: right;
     margin-top: -100px;
@@ -121,6 +121,7 @@ p {
     display: flex;
     justify-content: flex-start;
     column-gap: 15px;
+    margin-bottom: 50px;
   }
 
   .image-background-circle {
@@ -132,5 +133,31 @@ p {
     margin: 0 auto;
   }
 
+  .section-3 .text-area h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
 
+  .section-3 .text-area .subheading {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .section-3 .text-area p:nth-of-type(2) {
+    line-height: 30px;
+  }
+
+  .section-3 .text-area .red-underline {
+    border-bottom: 0.5rem solid var(--red);
+    width: 60vw;
+    margin-bottom: 25px;
+  }
+
+  .section-3 .image-area img {
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -40px;
+  }
 }
