@@ -91,4 +91,33 @@ p {
     float: right;
     margin-top: -100px;
   }
+
+  .section-2 .text-area h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .section-2 .text-area h2 {
+    margin-bottom: 10px;
+  }
+
+  .section-2 .text-area p:first-of-type {
+    margin-bottom: 40px;
+  }
+
+  .section-2 .text-area p:last-of-type {
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+
+  .image-background-circle {
+    background: var(--gray);
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+  }
+
+
 }
