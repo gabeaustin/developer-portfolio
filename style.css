@@ -219,4 +219,7 @@ p {
     line-height: 30px;
   }
 
+  .list-icon i.fas.fa-circle {
+    color: var(--red);
+  }
 }
