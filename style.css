@@ -155,9 +155,41 @@ p {
   }
 
   .section-3 .image-area img {
-    width: 80vw;
+    width: 90vw;
     display: flex;
+    position: relative;
     margin: 0 auto;
     margin-top: -40px;
+    z-index: 10;
   }
+
+  .section-3 .image-overlap-area {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -60px;
+    line-height: 50px;
+    width: 60vw;
+    background-color: var(--red);
+    color: var(--white);
+    z-index: 20;
+    padding: 30px 20px;
+  }
+
+  .section-3 .image-overlap-area h3 {
+    text-transform: uppercase;
+    font-size: 1.35rem;
+    letter-spacing: 1.35px;
+  }
+
+  .section-3 .image-overlap-area p {
+    font-size: 1.1rem;
+  }
+
+  .section-3 .image-overlap-area a {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+  }
+
+
 }
