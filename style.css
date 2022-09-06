@@ -48,7 +48,8 @@ p {
   }
 
   .text-area,
-  .details-area {
+  .details-area,
+  .text-area-2 {
     padding: 30px 50px 20px 50px;
   }
 
@@ -58,7 +59,8 @@ p {
     margin-bottom: 20px;
   }
 
-  .text-area p {
+  .text-area p,
+  .text-area-2 p {
     margin-bottom: 40px;
   }
 
@@ -181,7 +183,8 @@ p {
     letter-spacing: 1.35px;
   }
 
-  .section-3 .image-overlap-area p {
+  .section-3 .image-overlap-area p,
+  .section-3 .text-area-2 p {
     font-size: 1.1rem;
   }
 
@@ -191,5 +194,9 @@ p {
     cursor: pointer;
   }
 
+  .section-3 .text-area-2 {
+    padding: 30px 58px 20px 58px;
+    line-height: 30px;
+  }
 
 }
