@@ -251,4 +251,29 @@ p {
     padding-right: 13px;
     line-height: 25px;
   }
+
+  .section-5 .portfolio-snapshots {
+    margin-top: 75px;
+    /* start here small height issue */
+  }
+
+  .section-5 .portfolio-snapshots img {
+    width: 80vw;
+    display: flex;
+    position: relative;
+    margin: 0 auto 30px auto;
+    z-index: 20;
+  }
+
+  .section-5 .red-underline-vertical {
+    position: relative;
+    margin: 0 auto;
+    top: -1900px;
+    width: 65vw;
+    height: 1820px;
+    background-color: var(--red);
+    z-index: 10;
+    padding-top: 100px;
+    margin-top: 50px;
+  }
 }
