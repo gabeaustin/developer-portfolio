@@ -11,6 +11,7 @@
   --gray: #dfe3e5;
   --darker-gray: #e0e5eb;
   --text-gray: #949799;
+  --darker-text-gray: #555c66;
   --black: #292e33;
   --darker-black: #333333;
   --white: #ffffff;
@@ -226,9 +227,17 @@ p {
   .list-icon-and-list-copy {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    margin-bottom: 30px;
+  }
+
+  .list-heading-area .list-heading {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: var(--darker-text-gray);
+    letter-spacing: 5px;
   }
 
   .list-area {
-    padding: 50px;
+    padding: 35px;
   }
 }
