@@ -216,12 +216,16 @@ p {
 
   .section-4 .text-area .subheading {
     font-size: 1rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     line-height: 30px;
   }
 
   .list-icon i.fas.fa-circle {
     color: var(--red);
+  }
+
+  .list-icon {
+    margin: 5px 20px 0 0;
   }
 
   .list-icon-and-list-copy {
@@ -231,13 +235,20 @@ p {
   }
 
   .list-heading-area .list-heading {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     color: var(--darker-text-gray);
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+    white-space: nowrap;
   }
 
   .list-area {
     padding: 35px;
+  }
+
+  .list-copy {
+    margin-bottom: 50px;
+    padding-right: 13px;
+    line-height: 25px;
   }
 }
