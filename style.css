@@ -97,7 +97,8 @@ p {
   }
 
   .section-2 .text-area h2,
-  .section-2 .details-area h2 {
+  .section-2 .details-area h2,
+  .section-5 .text-area h2 {
     font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -254,7 +255,6 @@ p {
 
   .section-5 .portfolio-snapshots {
     margin-top: 75px;
-    /* start here small height issue */
   }
 
   .section-5 .portfolio-snapshots img {
@@ -268,12 +268,43 @@ p {
   .section-5 .red-underline-vertical {
     position: relative;
     margin: 0 auto;
-    top: -1700px;
+    /* top: -1700px; */
+    bottom: 1700px;
     width: 50vw;
-    height: 1600px;
+    min-height: 1600px;
     background-color: var(--red);
     z-index: 10;
     padding-top: 100px;
     margin-top: 50px;
+  }
+
+  .section-5 .text-area {
+    position: relative;
+    z-index: 20;
+    background-color: var(--white);
+    padding: 20px 20px 0.5px 70px;
+    width: 60vw;
+    line-height: 25px;
+  }
+
+
+  /* update styling for button on line 76 */
+  .section-5 .text-area button {
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 0;
+    width: 30vw;
+    height: 4vh;
+    margin: -50px 0 20px 0px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid var(--black);
+  }
+
+  .text-area button:hover {
+    background-color: var(--black);
+    color: var(--black);
   }
 }
