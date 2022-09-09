@@ -50,7 +50,8 @@ p {
 
   .text-area,
   .details-area,
-  .text-area-2 {
+  .text-area-2,
+  .section-6 p {
     padding: 30px 50px 20px 50px;
   }
 
@@ -306,5 +307,34 @@ p {
   .text-area button:hover {
     background-color: var(--black);
     color: var(--black);
+  }
+
+  .section-6 {
+    position: relative;
+    z-index: 20;
+    background-color: var(--darker-gray);
+  }
+
+  .section-6 .image-in-circle {
+    border: solid 2px var(--red);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+  }
+
+  .section-6 p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .section-6 .testimonial-author {
+    margin: -10px 0 25px 0;
+    text-transform: uppercase;
+    color: var(--darker-text-gray);
+    letter-spacing: 4px;
+    white-space: nowrap;
   }
 }
