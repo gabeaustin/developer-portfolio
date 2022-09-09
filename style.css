@@ -258,7 +258,7 @@ p {
   }
 
   .section-5 .portfolio-snapshots img {
-    width: 80vw;
+    width: 70vw;
     display: flex;
     position: relative;
     margin: 0 auto 30px auto;
@@ -268,9 +268,9 @@ p {
   .section-5 .red-underline-vertical {
     position: relative;
     margin: 0 auto;
-    top: -1900px;
-    width: 65vw;
-    height: 1820px;
+    top: -1700px;
+    width: 50vw;
+    height: 1600px;
     background-color: var(--red);
     z-index: 10;
     padding-top: 100px;
