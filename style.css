@@ -206,10 +206,6 @@ p {
     background-color: var(--darker-gray);
   }
 
-  .section-4 p {
-    /* padding: 20px; */
-  }
-
   .section-4 .text-area h2 {
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -255,43 +251,23 @@ p {
   }
 
   .section-5 .portfolio-snapshots {
-    margin-top: -1965px;
+    margin-top: -2038px;
     position: relative;
     z-index: 20;
     align-items: center;
     display: flex;
     flex-direction: column;
-
-    outline: solid black;
   }
 
   .section-5 .portfolio-snapshots img {
     width: 70vw;
-    /* display: flex; */
-    /* position: relative; */
-    margin: 0 auto 30px auto;
-    /* z-index: 20; */
-
-    outline: solid 3px green;
+    margin-bottom: 30px;
+    outline: solid var(--red);
   }
-
-  /* .section-5  */
-  /* .red-underline-vertical {
-    position: relative;
-    margin: 0 auto;
-    top: -2115px;
-    width: 50vw;
-    min-height: 240vh;
-    background-color: var(--red);
-    z-index: 10;
-    padding-top: 100px;
-    margin-top: 50px;
-  } */
 
   .section-5 .red-underline-vertical {
     display: flex;
     flex-direction: column;
-
     background-color: var(--red);
     height: 240vh;
     width: 50vw;
@@ -299,21 +275,21 @@ p {
     position: relative;
     margin-top: 70px;
     z-index: 10;
+    margin-bottom: 70px;
   }
 
   .section-5 .text-area {
     position: relative;
     z-index: 20;
     background-color: var(--white);
-    padding: 20px 20px 0.5px 70px;
-    width: 60vw;
+    padding: 15px;
+    width: 65vw;
     line-height: 25px;
+    margin-bottom: 70px;
+    outline: solid var(--black);
 
-    outline: solid 3px greenyellow;
   }
 
-
-  /* update styling for button on line 76 */
   .section-5 .text-area button {
     color: var(--black);
     background-color: var(--white);
