@@ -313,21 +313,24 @@ p {
     position: relative;
     z-index: 20;
     background-color: var(--darker-gray);
+    padding-top: 60px;
   }
 
   .section-6 .image-in-circle {
-    border: solid 2px var(--red);
+    border: solid 5px var(--red);
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 120px;
+    height: 120px;
     margin-bottom: 40px;
     margin: 0 auto;
   }
 
   .section-6 p {
-    font-size: 1.1rem;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 40px;
     text-align: center;
+    /* padding: 50px 50px 20px 50px; */
+    padding: 50px 75px 20px 75px;
   }
 
   .section-6 .testimonial-author {
