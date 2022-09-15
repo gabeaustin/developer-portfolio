@@ -329,8 +329,18 @@ p {
     font-size: 1.25rem;
     line-height: 40px;
     text-align: center;
-    /* padding: 50px 50px 20px 50px; */
-    padding: 50px 75px 20px 75px;
+    padding: 20px 10px;
+  }
+
+  /* styling for chevrons */
+  .section-6 .testimonal-sub-section {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  #chevron-right {
+    transform: rotate(180deg);
   }
 
   .section-6 .testimonial-author {
@@ -340,4 +350,6 @@ p {
     letter-spacing: 4px;
     white-space: nowrap;
   }
+
+
 }
