@@ -351,5 +351,25 @@ p {
     white-space: nowrap;
   }
 
+  .section-7 {
+    background-color: var(--darker-black);
+  }
+
+  .contact-area {
+    color: var(--white);
+    color: var(--darker-text-gray);
+  }
+
+  .contact-area h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    margin-bottom: 25px;
+    color: var(--darker-text-gray);
+    letter-spacing: 4px;
+    white-space: nowrap;
+  }
+
 
 }
