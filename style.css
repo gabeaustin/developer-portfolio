@@ -31,6 +31,10 @@ p {
   font-family: var(--para-font);
 }
 
+p {
+  font-size: 1.1rem;
+}
+
 /* Media Queries */
 
 /* tablets */
@@ -344,7 +348,7 @@ p {
   }
 
   .section-6 .testimonial-author {
-    margin: -10px 0 25px 0;
+    /* margin: -10px 0 25px 0; */
     text-transform: uppercase;
     color: var(--darker-text-gray);
     letter-spacing: 4px;
@@ -353,23 +357,33 @@ p {
 
   .section-7 {
     background-color: var(--darker-black);
+    padding: 30px 50px 20px 50px;
   }
 
-  .contact-area {
-    color: var(--white);
-    color: var(--darker-text-gray);
-  }
-
-  .contact-area h2 {
-    font-size: 2rem;
+  .section-7 .contact-area-small-heading {
+    /* Ready to Talk */
+    color: var(--darker-gray);
     text-transform: uppercase;
-    margin-bottom: 10px;
-
-    margin-bottom: 25px;
-    color: var(--darker-text-gray);
-    letter-spacing: 4px;
-    white-space: nowrap;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-size: 0.95rem;
   }
+
+  .section-7 .contact-heading {
+    /* Contact Me */
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .section-7 p {
+    color: var(--white);
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+
+
 
 
 }
