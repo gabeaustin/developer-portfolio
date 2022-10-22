@@ -260,7 +260,7 @@ p {
   }
 
   .section-5 .portfolio-snapshots {
-    margin-top: -2038px;
+    margin-top: -3330px;
     position: relative;
     z-index: 20;
     align-items: center;
@@ -269,9 +269,8 @@ p {
   }
 
   .section-5 .portfolio-snapshots img {
-    width: 70vw;
-    margin-bottom: 30px;
-    outline: solid var(--red);
+    width: 100vw;
+    margin-bottom: 20px;
   }
 
   .section-5 .red-underline-vertical {
@@ -279,7 +278,7 @@ p {
     flex-direction: column;
     background-color: var(--red);
     height: 240vh;
-    width: 50vw;
+    width: 70vw;
     margin: 0 auto;
     position: relative;
     margin-top: 70px;
@@ -292,11 +291,9 @@ p {
     z-index: 20;
     background-color: var(--white);
     padding: 15px;
-    width: 65vw;
+    width: 90vw;
     line-height: 25px;
     margin-bottom: 70px;
-    outline: solid var(--black);
-
   }
 
   .section-5 .text-area button {
